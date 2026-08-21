@@ -15,6 +15,10 @@ It includes:
 - Analytics charts for allocation, trend, and gain/loss by asset
 - Risk profile insights and interpretation
 
+## Dashboard Screenshot
+
+![Investment Portfolio Dashboard Output](docs/images/dashboard-output.png)
+
 ## Why This Project Exists
 
 This is not just a UI demo. It is a **working Spec-Kit reference implementation** that shows:
