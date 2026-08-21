@@ -1,0 +1,70 @@
+{
+  "portfolioId": "portfolio-001",
+  "asOfDate": "2026-08-15",
+  "holdings": [
+    {
+      "holdingId": "H-001",
+      "instrumentName": "Apple Inc.",
+      "assetType": "Equity",
+      "investedAmount": 120000,
+      "currentValue": 150000,
+      "returnPercentage": 25
+    },
+    {
+      "holdingId": "H-002",
+      "instrumentName": "Microsoft Corp.",
+      "assetType": "Equity",
+      "investedAmount": 90000,
+      "currentValue": 108000,
+      "returnPercentage": 20
+    },
+    {
+      "holdingId": "H-003",
+      "instrumentName": "US Treasury 10Y",
+      "assetType": "FixedIncome",
+      "investedAmount": 80000,
+      "currentValue": 82000,
+      "returnPercentage": 2.5
+    },
+    {
+      "holdingId": "H-004",
+      "instrumentName": "Corporate Bond Fund",
+      "assetType": "FixedIncome",
+      "investedAmount": 65000,
+      "currentValue": 67000,
+      "returnPercentage": 3.08
+    },
+    {
+      "holdingId": "H-005",
+      "instrumentName": "Gold ETF",
+      "assetType": "Alternative",
+      "investedAmount": 40000,
+      "currentValue": 46000,
+      "returnPercentage": 15
+    },
+    {
+      "holdingId": "H-006",
+      "instrumentName": "Global REIT Index",
+      "assetType": "Alternative",
+      "investedAmount": 30000,
+      "currentValue": 28500,
+      "returnPercentage": -5
+    },
+    {
+      "holdingId": "H-007",
+      "instrumentName": "Cash Sweep",
+      "assetType": "Cash",
+      "investedAmount": 25000,
+      "currentValue": 25000,
+      "returnPercentage": 0
+    },
+    {
+      "holdingId": "H-008",
+      "instrumentName": "Emerging Markets ETF",
+      "assetType": "Equity",
+      "investedAmount": 50000,
+      "currentValue": 47000,
+      "returnPercentage": -6
+    }
+  ]
+}

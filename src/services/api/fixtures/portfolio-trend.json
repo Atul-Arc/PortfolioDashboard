@@ -1,0 +1,77 @@
+{
+  "portfolioId": "portfolio-001",
+  "series": [
+    {
+      "periodLabel": "Sep 25",
+      "portfolioValue": 501200,
+      "investedValue": 500000,
+      "gainLossValue": 1200
+    },
+    {
+      "periodLabel": "Oct 25",
+      "portfolioValue": 507000,
+      "investedValue": 500000,
+      "gainLossValue": 7000
+    },
+    {
+      "periodLabel": "Nov 25",
+      "portfolioValue": 498500,
+      "investedValue": 500000,
+      "gainLossValue": -1500
+    },
+    {
+      "periodLabel": "Dec 25",
+      "portfolioValue": 516000,
+      "investedValue": 500000,
+      "gainLossValue": 16000
+    },
+    {
+      "periodLabel": "Jan 26",
+      "portfolioValue": 522800,
+      "investedValue": 500000,
+      "gainLossValue": 22800
+    },
+    {
+      "periodLabel": "Feb 26",
+      "portfolioValue": 529100,
+      "investedValue": 500000,
+      "gainLossValue": 29100
+    },
+    {
+      "periodLabel": "Mar 26",
+      "portfolioValue": 535200,
+      "investedValue": 500000,
+      "gainLossValue": 35200
+    },
+    {
+      "periodLabel": "Apr 26",
+      "portfolioValue": 544000,
+      "investedValue": 500000,
+      "gainLossValue": 44000
+    },
+    {
+      "periodLabel": "May 26",
+      "portfolioValue": 548600,
+      "investedValue": 500000,
+      "gainLossValue": 48600
+    },
+    {
+      "periodLabel": "Jun 26",
+      "portfolioValue": 551100,
+      "investedValue": 500000,
+      "gainLossValue": 51100
+    },
+    {
+      "periodLabel": "Jul 26",
+      "portfolioValue": 552700,
+      "investedValue": 500000,
+      "gainLossValue": 52700
+    },
+    {
+      "periodLabel": "Aug 26",
+      "portfolioValue": 553500,
+      "investedValue": 500000,
+      "gainLossValue": 53500
+    }
+  ]
+}

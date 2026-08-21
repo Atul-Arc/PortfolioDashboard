@@ -1,0 +1,7 @@
+{
+  "portfolioId": "portfolio-001",
+  "riskScore": 68,
+  "riskBand": "Moderate",
+  "interpretation": "Balanced growth profile with moderate volatility and diversified exposure.",
+  "concentrationWarning": "Equity concentration above 50% should be monitored during volatile cycles."
+}

@@ -1,0 +1,26 @@
+{
+  "portfolioId": "portfolio-001",
+  "asOfDate": "2026-08-15",
+  "allocations": [
+    {
+      "assetType": "Equity",
+      "allocationPercentage": 55.1,
+      "currentValue": 305000
+    },
+    {
+      "assetType": "FixedIncome",
+      "allocationPercentage": 26.92,
+      "currentValue": 149000
+    },
+    {
+      "assetType": "Alternative",
+      "allocationPercentage": 13.46,
+      "currentValue": 74500
+    },
+    {
+      "assetType": "Cash",
+      "allocationPercentage": 4.52,
+      "currentValue": 25000
+    }
+  ]
+}

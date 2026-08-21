@@ -1,0 +1,255 @@
+.dashboard-shell {
+  width: min(1240px, calc(100vw - 3rem));
+  margin: 2rem auto 3rem;
+}
+
+.dashboard-hero {
+  background: var(--bg-hero);
+  color: #f3f9ff;
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  font-size: 0.76rem;
+  opacity: 0.85;
+}
+
+.dashboard-hero h1 {
+  margin: 0.55rem 0 0.6rem;
+  font-size: clamp(1.55rem, 1.3rem + 0.75vw, 2.15rem);
+}
+
+.hero-subtitle {
+  margin: 0;
+  max-width: 56ch;
+  opacity: 0.9;
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.55rem;
+}
+
+.hero-actions .as-of,
+.hero-actions .source-label {
+  margin: 0;
+  font-size: 0.88rem;
+}
+
+.hero-actions button {
+  border: 0;
+  border-radius: 999px;
+  padding: 0.58rem 1rem;
+  background: #f2f7ff;
+  color: #0a2f4f;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.consistency-warning {
+  margin-top: 1rem;
+  border: 1px solid var(--signal-warning-border);
+  background: var(--signal-warning-bg);
+  color: #7f5a08;
+  border-radius: var(--radius-md);
+  padding: 0.7rem 0.95rem;
+  font-size: 0.91rem;
+}
+
+.dashboard-content {
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.95rem;
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 1.14rem;
+}
+
+.section-header p {
+  margin: 0.35rem 0 0;
+  color: var(--ink-secondary);
+  font-size: 0.93rem;
+}
+
+.section-badge {
+  background: #eff6ff;
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.summary-card {
+  padding: 1rem;
+}
+
+.summary-label {
+  margin: 0;
+  color: var(--ink-secondary);
+  font-size: 0.84rem;
+}
+
+.metric-value-wrapper {
+  margin-top: 0.75rem;
+}
+
+.metric-value {
+  font-size: 1.38rem;
+  letter-spacing: -0.01em;
+}
+
+.metric-positive {
+  color: var(--signal-positive);
+}
+
+.metric-negative {
+  color: var(--signal-negative);
+}
+
+.metric-neutral {
+  color: var(--signal-neutral);
+}
+
+.holdings-card,
+.analytics-card,
+.risk-widget {
+  padding: 1.15rem;
+}
+
+.holdings-table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.75rem 0.6rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+th button {
+  border: 0;
+  background: transparent;
+  font-weight: 700;
+  color: var(--ink-primary);
+  cursor: pointer;
+}
+
+.return-cell.positive {
+  color: var(--signal-positive);
+  font-weight: 700;
+}
+
+.return-cell.negative {
+  color: var(--signal-negative);
+  font-weight: 700;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.chart-panel {
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  background: #fcfdff;
+  padding: 0.75rem;
+}
+
+.chart-panel h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.98rem;
+}
+
+.risk-body p {
+  margin: 0 0 0.6rem;
+}
+
+.risk-band {
+  font-weight: 600;
+}
+
+.risk-moderate {
+  color: #0f4c81;
+}
+
+.risk-conservative {
+  color: var(--signal-positive);
+}
+
+.risk-aggressive {
+  color: var(--signal-negative);
+}
+
+.risk-warning {
+  margin-top: 0.45rem;
+  border-left: 4px solid #e9a92a;
+  background: #fff9e8;
+  color: #7f5a08;
+  padding: 0.65rem 0.72rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.dashboard-message {
+  width: min(720px, calc(100vw - 2rem));
+  margin: 3rem auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-soft);
+  background: #ffffff;
+  padding: 1.2rem;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+}
+
+.dashboard-message button {
+  margin-top: 0.75rem;
+  border: 0;
+  border-radius: 10px;
+  background: #0f4c81;
+  color: #ffffff;
+  padding: 0.5rem 0.95rem;
+  cursor: pointer;
+}
